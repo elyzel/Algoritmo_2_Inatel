@@ -27,7 +27,7 @@ Uma janela de terminal preta (o terminal do MSYS2) vai abrir automaticamente.
 
 2.1  Copie o comando abaixo, cole nesse terminal e aperte Enter:
 
-|  pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain  |
+``` pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain  ```
 
 2.2  O terminal vai pedir para você selecionar os pacotes (Enter a selection (default=all)). Apenas aperte Enter para aceitar todos.
 
@@ -53,7 +53,7 @@ Este é o passo decisivo para o VS Code conseguir "enxergar" o seu compilador:
 
 3.6  Digite ou cole exatamente este caminho (considerando que você fez a instalação padrão):
 
-|  C:\msys64\ucrt64\bin  |
+```  C:\msys64\ucrt64\bin  ```
 
 3.7  Clique em OK nessa janela, OK na anterior e OK na primeira para fechar tudo e salvar.
 
@@ -67,6 +67,6 @@ Feche o VS Code se ele estiver aberto (isso é obrigatório para ele atualizar a
 
 4.2  Digite o seguinte comando e aperte Enter:
 
-|  g++ --version  |
+```  g++ --version  ```
 
 Se estiver reconhecendo o MinGW está pronto para uso o VSCode!
