@@ -1,4 +1,4 @@
-## Algoritmo_C_Inatel
+# Algoritmo e Estrutura de Dados II - Inatel
 Todos os projetos desenvolvidos na graduação elaborados na linguagem C++.
 
 Conceitos aprendidos:
@@ -9,18 +9,19 @@ Conceitos aprendidos:
 - Lista Ligada
 - Hashing
 
-##  Requisitos para rodar o C++ no VSCode
+#  Requisitos para rodar o C++ no VSCode
 
-#  1)  Baixar e Instalar o MSYS2
-Acesse o site oficial do MSYS2 ( https://www.msys2.org/ ) e baixe o instalador (um arquivo .exe).
+##  1)  Baixar e Instalar o MSYS2
 
-Execute o instalador. Pode ir clicando em Next e deixar tudo no padrão (ele criará uma pasta em C:\msys64).
+1.1  Acesse o site oficial do MSYS2 ( https://www.msys2.org/ ) e baixe o instalador (um arquivo .exe).
 
-Ao final da instalação, certifique-se de que a opção "Run MSYS2 now" está marcada e clique em Finish.
+1.2  Execute o instalador. Pode ir clicando em Next e deixar tudo no padrão (ele criará uma pasta em C:\msys64).
+
+1.3  Ao final da instalação, certifique-se de que a opção "Run MSYS2 now" está marcada e clique em Finish.
 
 
 
-#  2) Baixar os pacotes do Compilador (GCC)
+##  2) Baixar os pacotes do Compilador (GCC)
 Uma janela de terminal preta (o terminal do MSYS2) vai abrir automaticamente.
 
 Copie o comando abaixo, cole nesse terminal e aperte Enter:
@@ -34,7 +35,7 @@ Aguarde o download e a instalação terminarem (pode levar alguns minutos). Depo
 
 
 
-#  3) Configurar as Variáveis de Ambiente no Windows 11
+##  3) Configurar as Variáveis de Ambiente no Windows 11
 Este é o passo decisivo para o VS Code conseguir "enxergar" o seu compilador:
 
 Pressione a tecla Windows no seu teclado e digite: variáveis de ambiente.
@@ -52,7 +53,7 @@ C:\msys64\ucrt64\bin
 
 Clique em OK nessa janela, OK na anterior e OK na primeira para fechar tudo e salvar.
 
-#  4) Testar a Instalação
+##  4) Testar a Instalação
 Vamos confirmar se o Windows 11 reconheceu tudo corretamente:
 
 Feche o VS Code se ele estiver aberto (isso é obrigatório para ele atualizar as informações do sistema).
