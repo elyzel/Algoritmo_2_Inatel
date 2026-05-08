@@ -22,45 +22,51 @@ Conceitos aprendidos:
 
 
 ##  2) Baixar os pacotes do Compilador (GCC)
+
 Uma janela de terminal preta (o terminal do MSYS2) vai abrir automaticamente.
 
-Copie o comando abaixo, cole nesse terminal e aperte Enter:
-pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+2.1  Copie o comando abaixo, cole nesse terminal e aperte Enter:
 
-O terminal vai pedir para você selecionar os pacotes (Enter a selection (default=all)). Apenas aperte Enter para aceitar todos.
+|  pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain  |
 
-Ele perguntará se você quer continuar com a instalação (Proceed with installation? [Y/n]). Digite Y e aperte Enter.
+2.2  O terminal vai pedir para você selecionar os pacotes (Enter a selection (default=all)). Apenas aperte Enter para aceitar todos.
 
-Aguarde o download e a instalação terminarem (pode levar alguns minutos). Depois, pode fechar esse terminal.
+2.3  Ele perguntará se você quer continuar com a instalação (Proceed with installation? [Y/n]). Digite Y e aperte Enter.
+
+2.4  Aguarde o download e a instalação terminarem (pode levar alguns minutos). Depois, pode fechar esse terminal.
 
 
 
 ##  3) Configurar as Variáveis de Ambiente no Windows 11
+
 Este é o passo decisivo para o VS Code conseguir "enxergar" o seu compilador:
 
-Pressione a tecla Windows no seu teclado e digite: variáveis de ambiente.
+3.1  Pressione a tecla Windows no seu teclado e digite: variáveis de ambiente.
 
-Clique no resultado Editar as variáveis de ambiente do sistema (terá um ícone de Painel de Controle).
+3.2  Clique no resultado Editar as variáveis de ambiente do sistema (terá um ícone de Painel de Controle).
 
-Na janela que se abriu, clique no botão Variáveis de Ambiente... (fica bem na parte de baixo).
+3.3  Na janela que se abriu, clique no botão Variáveis de Ambiente... (fica bem na parte de baixo).
 
-Olhe para a lista de baixo, chamada Variáveis do sistema. Role a lista até encontrar a variável Path. Clique nela para selecionar e depois clique no botão Editar....
+3.4  Olhe para a lista de baixo, chamada Variáveis do sistema. Role a lista até encontrar a variável Path. Clique nela para selecionar e depois clique no botão Editar....
 
-Clique no botão Novo (no lado direito).
+3.5  Clique no botão Novo (no lado direito).
 
-Digite ou cole exatamente este caminho (considerando que você fez a instalação padrão):
-C:\msys64\ucrt64\bin
+3.6  Digite ou cole exatamente este caminho (considerando que você fez a instalação padrão):
 
-Clique em OK nessa janela, OK na anterior e OK na primeira para fechar tudo e salvar.
+|  C:\msys64\ucrt64\bin  |
+
+3.7  Clique em OK nessa janela, OK na anterior e OK na primeira para fechar tudo e salvar.
 
 ##  4) Testar a Instalação
+
 Vamos confirmar se o Windows 11 reconheceu tudo corretamente:
 
 Feche o VS Code se ele estiver aberto (isso é obrigatório para ele atualizar as informações do sistema).
 
-Abra o Prompt de Comando (aperte a tecla Windows, digite cmd e dê Enter).
+4.1  Abra o Prompt de Comando (aperte a tecla Windows, digite cmd e dê Enter).
 
-Digite o seguinte comando e aperte Enter:
-g++ --version
+4.2  Digite o seguinte comando e aperte Enter:
 
-Se a tela retornar várias linhas de texto com informações e a versão do compilador (algo como g++ (RevX, Built by MSYS2 project)...), a sua configuração foi um sucesso absoluto! Agora é só abrir o VS Code, escrever seu código main.cpp e clicar no botão de "Play" no canto superior direito para executar.
+|  g++ --version  |
+
+Se estiver reconhecendo o MinGW está pronto para uso o VSCode!
