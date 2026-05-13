@@ -3,7 +3,7 @@ Todos os projetos desenvolvidos na graduação elaborados na linguagem C++.
 
 Conceitos aprendidos:
 
-- Pesquisa 
+- Pesquisa Binária
 - Ordenação
 - Ponteiro
 - Lista Ligada
