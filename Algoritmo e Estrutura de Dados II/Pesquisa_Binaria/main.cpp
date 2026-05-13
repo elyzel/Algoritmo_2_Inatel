@@ -39,6 +39,7 @@ int main()
     ordena(alunos, total);
 
     // Leitura do nome a ser buscado
+    cin.ignore();
     getline(cin, busca_nome);
 
     resultado = binaria(alunos, total, busca_nome);
