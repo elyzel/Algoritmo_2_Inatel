@@ -5,8 +5,8 @@ using namespace std;
 int main()  {
     int k; // Valor da chave a ser inserida
     int m; // Tamanho desejado para a tabela hash
-    dado vetor; // Tabela hash (vetor de struct dado) com tamanho máximo
-    int i; // CORREÇÃO (Regra de Ouro): Variável iteradora para os laços de repetição.
+    dado vetor[5000]; // Tabela hash (vetor de struct dado) com tamanho máximo
+    int i; //Variável iteradora para os laços de repetição.
     
     cin >> m;
     
