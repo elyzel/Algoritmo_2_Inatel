@@ -23,7 +23,10 @@ int main() {
 
     // Inserção de dados até encontrar a condição de parada (zero)
     while(cin >> valor_lido && valor_lido != 0) {
-        lista_encadeada.push_back(valor_lido);
+        lista_encadeada.push_back(valor_lido); //o push-back insere um novo elemento no final  da sua estrutura
+        //Exemplo: Inserido -> 4 logo [0,1,2,3,4]
+                                               ^ 
+        //                                     |- Última posição
     }
 
     // Processamento da soma

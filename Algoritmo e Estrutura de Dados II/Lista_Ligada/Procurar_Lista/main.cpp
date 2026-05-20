@@ -7,7 +7,7 @@ bool encontrar(list<int> lista, int x) {
     //Ponteiro especial para lista ligada
     list<int> ::iterator p;
     
-    //Operacao
+    //Percorre a lista ligada do incio ao fim
     for(p = lista.begin(); p != lista.end(); p++)  {
         
         //Condicao de parada
@@ -29,7 +29,8 @@ int main()  {
     list<int> lista;
     int num;
     int n;
-        
+    
+    //Laço de repetição para inserir os elementos na lista ligada
     while(true) {
             
     cin >> num;
@@ -40,13 +41,15 @@ int main()  {
         break;
             
     }
-        
+    
+    //Insere o elemento no final da lista ligada
     lista.push_back(num);
             
     }
     
     cin >> n;
     
+    //Chama a função para procurar o elemento na lista ligada
     if(encontrar(lista, n)){
         cout << "Encontrado" << endl;
     }
